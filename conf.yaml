@@ -1,0 +1,4 @@
+spanner:
+  projectID: test-dev
+  instance: test-instance
+
