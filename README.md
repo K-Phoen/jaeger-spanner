@@ -1,6 +1,8 @@
 # Spanner storage backend for Jaeger
 
-## Dev setup
+**Note:** this plugin is an experiment. Meant to learn more about Jaeger and how it works. It was written during a "lab day" and is by no means production-ready. 
+
+## Development
 
 Download Jaeger "all-in-one" binary: https://www.jaegertracing.io/download/
 

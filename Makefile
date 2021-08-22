@@ -25,7 +25,7 @@ lint: ## Run linters.
 	golangci-lint run --config .golangci.yaml
 
 .PHONY: dev
-dev: build # Start plugin in dev mode.
+dev: build ## Start plugin in dev mode.
 	SPANNER_EMULATOR_HOST=localhost:9010 SPAN_STORAGE_TYPE=grpc-plugin ./jaeger-all-in-one --grpc-storage-plugin.binary=$(CURDIR)/spanner-plugin --grpc-storage-plugin.configuration-file=$(CURDIR)/conf.yaml
 
 ##@ Build
